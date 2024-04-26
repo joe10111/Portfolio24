@@ -7,8 +7,11 @@
   <link href='/dist/output.css' rel='stylesheet'>
 </head>
 
-<body class="bg-black text-white font-mono">
-  <div class="container mx-auto px-4">
+<body class="bg-black text-white font-mono relative">
+  <div class="fixed inset-0 w-full h-full">
+  <img src="https://firebasestorage.googleapis.com/v0/b/joe-s-portfolio-dd1fe.appspot.com/o/CodeBackgroundFinal.png?alt=media&token=83581ca5-a5d7-4c55-9b01-8c7fb0d3802a" class="absolute inset-0 min-w-full min-h-full object-cover scale-150 opacity-25">
+  </div>
+  <div class="container mx-auto px-4 relative z-10">
      <header class="py-5 flex justify-between items-center"> 
         <h1 class="text-6xl font-extrabold">Hello, I'm Joe!</h1>
       </header>
@@ -29,52 +32,66 @@
       <article class="flex mb-6 space-x-4">
         <div class="flex-1">
           <h3 class="text-xl font-semibold mb-2">Code Whisper AI</h3>
-          <p class="leading-relaxed mb-28">
+          <p class="leading-relaxed mb-28 mr-10">
             A capstone project built with C# .Net for Turing's Launch program, showcasing the cumulative learning from mods 0 to 5. This individual project spanned one month and represents a blend of skills and knowledge acquired through the rigorous program.
             Code Whisperer AI is your personal guide to skill refinement and code perfection. Tailored for both beginners and seasoned coding professionals, my application leverages the power of GPT-4 API to provide insightful analysis and actionable feedback for your code.
             It's designed to operate quietly yet deliver impactful enhancements, ensuring your code's quality and performance stand out.
           </p>
           <h2 class="text-white mb-2 font-semibold">Features</h2>
-          <p class="leading-relaxed mb-2">
-            AI-Powered Analysis: Utilizing the GPT-4 API for advanced code analysis. User-Friendly Interface: Simple and intuitive design for easy interaction. 
-            Comprehensive Feedback: Detailed insights on Code Cleanliness, Time Complexity, and Areas of Improvement. Skill Development: Ideal for learners and professionals aiming to refine their coding skills.
+          <p class="leading-relaxed mb-2 mr-10">
+            Code Whisperer AI is designed to be an essential companion for coders at every level of expertise. Utilizing the powerful GPT-4 API, this application is crafted to improve coding accuracy and efficiency by providing targeted, context-aware feedback. It is uniquely positioned to help users refine their coding skills through personalized analysis, catering to individual learning curves and coding challenges, making it a vital tool for professional development.
           </p>
         </div>
       <div class="flex-shrink-0">
-      <img src="https://firebasestorage.googleapis.com/v0/b/joe-s-portfolio-dd1fe.appspot.com/o/283539064-10d18d2e-24ab-4aa1-b4a3-c75d339d5a99%201.png?alt=media&token=238a2d5b-3999-4576-a54b-fb54c901aa82" class="mb-5 w-full h-auto">
-      <img src="https://firebasestorage.googleapis.com/v0/b/joe-s-portfolio-dd1fe.appspot.com/o/283539127-0fcc503a-2e2e-4702-a9fc-3c0480d82f1a%201.png?alt=media&token=f53986fe-740b-4b57-8ecf-74b1f7405d7e" class="w-full h-auto">
+      <img src="https://firebasestorage.googleapis.com/v0/b/joe-s-portfolio-dd1fe.appspot.com/o/283539064-10d18d2e-24ab-4aa1-b4a3-c75d339d5a99%201.png?alt=media&token=238a2d5b-3999-4576-a54b-fb54c901aa82" class="mb-5 w-128 h-auto">
+      <img src="https://firebasestorage.googleapis.com/v0/b/joe-s-portfolio-dd1fe.appspot.com/o/283539127-0fcc503a-2e2e-4702-a9fc-3c0480d82f1a%201.png?alt=media&token=f53986fe-740b-4b57-8ecf-74b1f7405d7e" class="w-128 h-auto">
       </div>
     </article>
-    <article>
-      <h3 class="text-xl font-semibold">The Level Up App</h3>
-      <p class="leading-relaxed">
-        A innovative ASP.Net Core web application developed collaboratively over three weeks with my teammates Eli Paris and Rafi Wick, divided into three distinct sprints. 
-        This platform enhances productivity through sophisticated task management and engaging gamification features. Users can maintain organized lists of tasks, customize 
-        tasks aligned with their personal aspirations, and experience gamified progression by "leveling up" their account upon task completion. 
-      </p>
-      <h2 class="text-l font-semibold">Features and BackEnd</h2>
-      <p class="text-white"> 
-        One of the standout features is the AI-generated profile pictures, powered by OpenAI's API, which evolve to visually represent user progress, adding a unique motivational element. 
-        Additionally, the dynamic radar graph offers a visual snapshot of weekly achievements, encouraging consistent user engagement through interactive feedback. 
-        We developed the backend using C#.Net and ASP.Net Core, with PostgreSQL for database management, ensuring robust performance and scalability. 
-        This project not only highlights my backend development skills but also demonstrates my ability to collaborate effectively within a team to turn everyday tasks into a captivating and rewarding experience. 
-      </p>
-      <img src="https://firebasestorage.googleapis.com/v0/b/joe-s-portfolio-dd1fe.appspot.com/o/ProfileTutorial%201.png?alt=media&token=bca604ef-5e7d-4f58-847c-b277a62bbd9c">
-      <img src="https://firebasestorage.googleapis.com/v0/b/joe-s-portfolio-dd1fe.appspot.com/o/CreateTaskTutorial%201.png?alt=media&token=5a2a9e0d-d845-4544-a0fd-064e5c0e04c8">
-      <img src="https://firebasestorage.googleapis.com/v0/b/joe-s-portfolio-dd1fe.appspot.com/o/TasksTutorial%201.png?alt=media&token=ae23cca3-02fa-4762-a05d-818b9503877b">
+    <article class="flex flex-col md:flex-row mb-6 mt-32 items-start">
+      <div class="flex-1">
+        <h3 class="text-xl font-semibold mb-2">The Level Up App</h3>
+        <p class="leading-relaxed mb-4 mr-44">
+          A innovative ASP.Net Core web application developed collaboratively over three weeks with my teammates Eli Paris and Rafi Wick, divided into three distinct sprints. 
+          This platform enhances productivity through sophisticated task management and engaging gamification features. Users can maintain organized lists of tasks, customize 
+          tasks aligned with their personal aspirations, and experience gamified progression by "leveling up" their account upon task completion. 
+        </p>
+        <h2 class="text-l font-semibold mb-2 mt-20">Features</h2>
+        <p class="leading-relaxed mb-4 mr-44"> 
+          AI-Generated Profile Pictures: One of the standout features of Level Up is the AI-generated profile pictures. Using OpenAI's powerful API, these images evolve to visually represent user progress over time. This unique approach not only personalizes the experience but also serves as a motivational tool, encouraging users to continue engaging with the app and tracking their development.
+
+Dynamic Radar Graph: To further enhance user interaction, Level Up includes a dynamic radar graph that provides a visual summary of weekly achievements. This feature allows users to quickly assess their progress and areas for improvement, promoting regular interaction and sustained engagement with the platform.
+
+</p>
+        <h2 class="text-l font-semibold mb-2 mt-20">BackEnd</h2>
+        <p class="leading-relaxed mb-4 mr-44">
+Backend Technology: The backbone of Level Up is built using C#.Net and ASP.Net Core, technologies chosen for their reliability and scalability. This robust framework supports the intricate features of the application while ensuring a smooth user experience.
+Database Management: PostgreSQL was selected for database management due to its powerful capabilities and scalability. It effectively handles the complex data needs of Level Up, ensuring data integrity and fast query responses, which are crucial for maintaining an excellent user experience.
+        </p>
+      </div>
+      <div class="flex-shrink-0 space-y-4">
+        <img src="https://firebasestorage.googleapis.com/v0/b/joe-s-portfolio-dd1fe.appspot.com/o/ProfileTutorial%201.png?alt=media&token=bca604ef-5e7d-4f58-847c-b277a62bbd9c" class="w-128 h-auto mb-4">
+        <img src="https://firebasestorage.googleapis.com/v0/b/joe-s-portfolio-dd1fe.appspot.com/o/CreateTaskTutorial%201.png?alt=media&token=5a2a9e0d-d845-4544-a0fd-064e5c0e04c8" class="w-128 h-auto mb-4">
+        <img src="https://firebasestorage.googleapis.com/v0/b/joe-s-portfolio-dd1fe.appspot.com/o/TasksTutorial%201.png?alt=media&token=ae23cca3-02fa-4762-a05d-818b9503877b" class="w-128 h-auto">
+      </div>
     </article>
     </section>
-    <section class="py-5">
-      <h1 class="text-2xl font-semibold text-white mb-3">About Me</h1>
-      <p class="leading-relaxed">
-        I'm Joseph, a passionate Backend Developer who recently completed The Launch Program at the Turing School of Software and Design. This innovative program, designed specifically for young career starters, deepened my expertise in C#/.NET, object-oriented programming, and databases, preparing me to tackle complex software development challenges with modern solutions.
-
-        My journey doesn't end with software development; I'm also fervently exploring the realm of game development. Revisiting my foundational skills in C++ from my college days, I'm now engrossed in mastering Unreal Engine 5. My ambition is to blend my technical abilities with creative storytelling, crafting engaging worlds that offer players unique and memorable experiences.
-        
-        Outside of the digital domain, my adventures in the Pacific Northwest's wilderness, time spent with my cats, and the art of coffee brewing enrich my life. These experiences, combined with the invaluable customer service skills I developed as a Starbucks Barista, have shaped my approach to technology and teamwork.
-        
-        With a balanced skill set in both C#/.NET for software development and C++ for game creation, I am eager to contribute to meaningful projects in both spheres. I invite you to explore my portfolio further. Let's discuss how we can work together to bring innovative ideas to life. 
-      </p>
+    <section class="py-5 flex items-start space-x-8 mt-32"> <!-- Add flex, align items at the start, and horizontal spacing -->
+      <div class="flex flex-col items-start space-y-10"> <!-- Adjust space between images -->
+        <img src="https://firebasestorage.googleapis.com/v0/b/joe-s-portfolio-dd1fe.appspot.com/o/In-White-128%201.png?alt=media&token=cf80ae50-c51d-4b1b-a7cd-8507a1d97f0e" class="h-16 w-16" alt="LinkedIn Logo" />
+        <img src="https://firebasestorage.googleapis.com/v0/b/joe-s-portfolio-dd1fe.appspot.com/o/github-mark-white%201.png?alt=media&token=08d786a5-2b86-42e5-9012-38da4af2acd8" class="h-16 w-16" alt="GitHub Logo" />
+      </div>
+      <div class="flex-1"> <!-- Text container to fill remaining space -->
+        <h1 class="text-2xl font-semibold text-white mb-3">Connect With Me</h1>
+        <p class="leading-relaxed text-white">
+          I'm Joseph, a passionate Backend Developer who recently completed The Launch Program at the Turing School of Software and Design. This innovative program, designed specifically for young career starters, deepened my expertise in C#/.NET, object-oriented programming, and databases, preparing me to tackle complex software development challenges with modern solutions.
+    
+          My journey doesn't end with software development; I'm also fervently exploring the realm of game development. Revisiting my foundational skills in C++ from my college days, I'm now engrossed in mastering Unreal Engine 5. My ambition is to blend my technical abilities with creative storytelling, crafting engaging worlds that offer players unique and memorable experiences.
+          
+          Outside of the digital domain, my adventures in the Pacific Northwest's wilderness, time spent with my cats, and the art of coffee brewing enrich my life. These experiences, combined with the invaluable customer service skills I developed as a Starbucks Barista, have shaped my approach to technology and teamwork.
+          
+          With a balanced skill set in both C#/.NET for software development and C++ for game creation, I am eager to contribute to meaningful projects in both spheres. I invite you to explore my portfolio further. Let's discuss how we can work together to bring innovative ideas to life.
+        </p>
+      </div>
     </section>
   </div>
 </body>
