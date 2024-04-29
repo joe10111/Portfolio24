@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Joe's Portfolio</title>
-  <link href='/dist/output.css' rel='stylesheet'>
+  <link href='/public/output.css' rel='stylesheet'>
 </head>
 
 <body class="bg-black text-white font-mono relative">
@@ -17,8 +17,12 @@
       </header>
       <section class="py-5 flex flex-col md:flex-row items-center mb-40 mt-20">
         <div class="flex flex-col items-start space-y-2 mr-5">
-          <img src="https://firebasestorage.googleapis.com/v0/b/joe-s-portfolio-dd1fe.appspot.com/o/In-White-128%201.png?alt=media&token=cf80ae50-c51d-4b1b-a7cd-8507a1d97f0e" class="h-24 w-24 mb-10" alt="Linked In Logo" />
-          <img src="https://firebasestorage.googleapis.com/v0/b/joe-s-portfolio-dd1fe.appspot.com/o/github-mark-white%201.png?alt=media&token=08d786a5-2b86-42e5-9012-38da4af2acd8" class="h-24 w-24 mt-10" alt="GitHub Logo" />
+          <a href="https://www.linkedin.com/in/joe-centeno">
+            <img src="https://firebasestorage.googleapis.com/v0/b/joe-s-portfolio-dd1fe.appspot.com/o/In-White-128%201.png?alt=media&token=cf80ae50-c51d-4b1b-a7cd-8507a1d97f0e" class="h-24 w-24 mb-10" alt="Linked In Logo" />
+          </a>
+          <a href="https://github.com/joe10111">
+            <img src="https://firebasestorage.googleapis.com/v0/b/joe-s-portfolio-dd1fe.appspot.com/o/github-mark-white%201.png?alt=media&token=08d786a5-2b86-42e5-9012-38da4af2acd8" class="h-24 w-24 mt-10" alt="GitHub Logo" />
+          </a>
         </div>
         <p class="md:flex-1 text-3xl leading-relaxed mx-32">
           A Backend Developer located in North Seattle, WA. A proud graduate of The Launch Program at the Turing School of Software and Design, I specialize in C# and .NET,
@@ -59,7 +63,7 @@
         <p class="leading-relaxed mb-4 mr-44"> 
           AI-Generated Profile Pictures: One of the standout features of Level Up is the AI-generated profile pictures. Using OpenAI's powerful API, these images evolve to visually represent user progress over time. This unique approach not only personalizes the experience but also serves as a motivational tool, encouraging users to continue engaging with the app and tracking their development.
 
-Dynamic Radar Graph: To further enhance user interaction, Level Up includes a dynamic radar graph that provides a visual summary of weekly achievements. This feature allows users to quickly assess their progress and areas for improvement, promoting regular interaction and sustained engagement with the platform.
+          Dynamic Radar Graph: To further enhance user interaction, Level Up includes a dynamic radar graph that provides a visual summary of weekly achievements. This feature allows users to quickly assess their progress and areas for improvement, promoting regular interaction and sustained engagement with the platform.
 
 </p>
         <h2 class="text-l font-semibold mb-2 mt-20">BackEnd</h2>
@@ -75,13 +79,10 @@ Database Management: PostgreSQL was selected for database management due to its 
       </div>
     </article>
     </section>
-    <section class="py-5 flex items-start space-x-8 mt-32"> <!-- Add flex, align items at the start, and horizontal spacing -->
-      <div class="flex flex-col items-start space-y-10"> <!-- Adjust space between images -->
-        <img src="https://firebasestorage.googleapis.com/v0/b/joe-s-portfolio-dd1fe.appspot.com/o/In-White-128%201.png?alt=media&token=cf80ae50-c51d-4b1b-a7cd-8507a1d97f0e" class="h-16 w-16" alt="LinkedIn Logo" />
-        <img src="https://firebasestorage.googleapis.com/v0/b/joe-s-portfolio-dd1fe.appspot.com/o/github-mark-white%201.png?alt=media&token=08d786a5-2b86-42e5-9012-38da4af2acd8" class="h-16 w-16" alt="GitHub Logo" />
-      </div>
-      <div class="flex-1"> <!-- Text container to fill remaining space -->
-        <h1 class="text-2xl font-semibold text-white mb-3">Connect With Me</h1>
+    <section class="py-5 flex items-start space-x-8 mt-32"> 
+      <div class="flex-1"> 
+        <h1 class="text-2xl font-semibold text-white mb-3">About Me</h1>
+       
         <p class="leading-relaxed text-white">
           I'm Joseph, a passionate Backend Developer who recently completed The Launch Program at the Turing School of Software and Design. This innovative program, designed specifically for young career starters, deepened my expertise in C#/.NET, object-oriented programming, and databases, preparing me to tackle complex software development challenges with modern solutions.
     
@@ -93,6 +94,45 @@ Database Management: PostgreSQL was selected for database management due to its 
         </p>
       </div>
     </section>
+    <section class="py-5 flex items-start space-x-8"> 
+      <div class="flex flex-row items-start space-x-10"> 
+        <a href="https://www.linkedin.com/in/joe-centeno">
+          <img src="https://firebasestorage.googleapis.com/v0/b/joe-s-portfolio-dd1fe.appspot.com/o/In-White-128%201.png?alt=media&token=cf80ae50-c51d-4b1b-a7cd-8507a1d97f0e" class="h-16 w-16" alt="LinkedIn Logo" />
+        </a>
+        <a href="https://github.com/joe10111">
+          <img src="https://firebasestorage.googleapis.com/v0/b/joe-s-portfolio-dd1fe.appspot.com/o/github-mark-white%201.png?alt=media&token=08d786a5-2b86-42e5-9012-38da4af2acd8" class="h-16 w-16" alt="GitHub Logo" />
+        </a>
+      </div>
+      <div class="flex-auto"> 
+        <p>centeno.joe@gmail.com</p>
+        <p>720 - 431 - 4229</p>
+      </div>
+    </section>
   </div>
+
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.11.1/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.11.1/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyAPl9ugUajTU4GZ5BTwsb-EYE4jrRsqL7s",
+      authDomain: "joe-s-portfolio-dd1fe.firebaseapp.com",
+      projectId: "joe-s-portfolio-dd1fe",
+      storageBucket: "joe-s-portfolio-dd1fe.appspot.com",
+      messagingSenderId: "790948411002",
+      appId: "1:790948411002:web:108f1d6917702583a4edc3",
+      measurementId: "G-C9KLYV6CSS"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
 </body>
 </html>
+
