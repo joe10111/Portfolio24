@@ -1,4 +1,4 @@
-# Joe Centeno Portfolio Website Project
+# Portfolio Website Project
 
 This repository contains the source code for my latest portfolio website project. The website serves as a showcase of my skills and projects, developed using modern front-end technologies.
 
@@ -6,6 +6,8 @@ This repository contains the source code for my latest portfolio website project
 
 - Tailwind CSS
 - Firebase
+- Render
+- Oh My ZHS x VS Code x Git for Local Environment
 
 ## Overview
 
@@ -36,9 +38,9 @@ The website is hosted using Firebase hosting. To deploy changes to the live site
 ## Credits
 
 Special thanks to the following resources:
-
+- [Render Hosting]((https://render.com)) - Platform for hosting static sites and more complex non-static web applications
 - [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
-- [Firebase](https://firebase.google.com/) - Platform for developing web and mobile applications
+- [Firebase Hosting](https://firebase.google.com/) - Platform for hosting files and web applications
 
 ## License
 
