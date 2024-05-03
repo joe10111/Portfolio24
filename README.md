@@ -38,7 +38,7 @@ The website is hosted using Firebase hosting. To deploy changes to the live site
 ## Credits
 
 Special thanks to the following resources:
-- [Render Hosting]((https://render.com)) - Platform for hosting static sites and more complex non-static web applications
+- [Render Hosting](https://render.com) - Platform for hosting static sites and more complex non-static web applications
 - [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
 - [Firebase Hosting](https://firebase.google.com/) - Platform for hosting files and web applications
 
