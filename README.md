@@ -24,16 +24,6 @@ To run the project locally, follow these steps:
 1. Clone the repository: `git clone https://github.com/your-username/portfolio-website.git`
 2. Navigate to the project directory: `cd portfolio-website`
 3. Install dependencies: `npm install`
-4. Start the development server: `npm start`
-
-## Deployment
-
-The website is hosted using Firebase hosting. To deploy changes to the live site:
-
-1. Install the Firebase CLI: `npm install -g firebase-tools`
-2. Login to Firebase: `firebase login`
-3. Initialize Firebase project: `firebase init`
-4. Deploy to Firebase: `firebase deploy`
 
 ## Credits
 
